@@ -8,11 +8,4 @@
             - uses: actions/checkout@v3
             - name: Build
               run: swift build
-            - name: Run tests
-              run: swift test
-            - uses: actions/setup-java@v3
-              with:
-                 distribution: 'temurin' 
-                 java-version: ’11’
-            - run: chmod +x gradlew
-            - run: ./gradlew build
+ 
